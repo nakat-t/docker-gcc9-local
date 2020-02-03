@@ -14,6 +14,8 @@ RUN    apt-get update \
 		xutils-dev \
 		patch \
 		git \
+		python3 \
+		python3-pip \
 		libpulse-dev \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
